@@ -26,12 +26,6 @@ async def on_ready():
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="Grand Theft Auto VI"))
 
 @bot.event
-async def on_message(message):
-    print(f"📩 收到訊息: {message.content} (來自: {message.author})")  # 測試用
-
-    await bot.process_commands(message)  # 讓指令可以繼續運作
-
-@bot.event
 async def on_member_join(member):
    channel = bot.get_channel(int(jdata['normal_channel']))
    await channel.send(f'<@{member.id}> Welcome aborad bitch!')
