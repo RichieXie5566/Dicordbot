@@ -5,6 +5,8 @@ Feedback talking some words, mostly are Chinese.
 
 Random pictures sending when users type the word "draw" in Chinese.
 
+Show ping
+
 ```
 dcb
 ├─ .idea

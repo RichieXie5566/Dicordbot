@@ -38,7 +38,7 @@ async def on_member_remove(member):
 
 @bot.command(name="ping", help="This is a ping command")
 async def ping(ctx):
-   await ctx.send(f"Latency: {round(bot.latency * 1000)}ms")
+   await ctx.send(f"Latency: {round(bot.latency * 1000)}ms") 
 
 @bot.event
 async def on_message(message):
