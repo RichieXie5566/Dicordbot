@@ -31,3 +31,11 @@ dcb
 └─ README.md
 
 ```
+
+25/3/23
+Add music function
+
+Issuse:
+Not playing well, stutter and lagging due to network.
+
+Only read urls, maybe someday I will add searching qutoe.
