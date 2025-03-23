@@ -113,9 +113,9 @@ async def play(ctx, url):
     # 定義播放結束後的回調函數
     async def after_playing(error):
         if error:
-            print(f"播放錯誤：{error}")
+            print(f"Error：{error}")
         else:
-            print(f"完成播放：{video_title}")
+            print(f"Finished：{video_title}")
         # 播放結束後恢復初始狀態
         await bot.change_presence(
             status=discord.Status.online,
