@@ -139,7 +139,7 @@ async def play(ctx, url):
         # 開始播放前更新狀態
         await bot.change_presence(
             status=discord.Status.online,
-            activity=discord.Activity(type=discord.ActivityType.watching, name=f"Youtube：{video_title}")
+            activity=discord.Activity(type=discord.ActivityType.watching, name=f"Youtube {video_title}")
         )
 
         # 播放音樂，並綁定回調
