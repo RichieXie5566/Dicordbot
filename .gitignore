@@ -3,3 +3,5 @@ serversettingsjson.txt
 gallery/
 items.json
 serversettings.json
+.venv/
+ffmpeg/
