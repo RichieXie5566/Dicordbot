@@ -5,7 +5,7 @@ Feedback talking some words, mostly are Chinese.
 
 Random pictures sending when users type the word "draw" in Chinese.
 
-Show ping
+Show ping.
 
 ```
 dcb
@@ -33,7 +33,9 @@ dcb
 ```
 
 25/3/23
-Add music function
+Add music function.
+
+You will need ffmpeg.
 
 Issuse:
 Not playing well, stutter and lagging due to network.
